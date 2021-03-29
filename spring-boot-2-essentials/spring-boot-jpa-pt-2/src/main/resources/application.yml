@@ -1,0 +1,13 @@
+
+server:
+  error:
+    include-stacktrace: on_param
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/devdojo_spring_boot_2_essentials?userSSL=false&createDatabaseIfNotExist=true
+    username: root
+    password: 5504
+  jpa:
+    hibernate:
+      ddl-auto: update
